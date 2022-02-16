@@ -12,6 +12,7 @@ const MovieDetailsPage = () => {
   useEffect(() => {
     getDetails(id).then((data) => setData(data));
   }, [id]);
+  
   const imgUrl = `https://image.tmdb.org/t/p/w400/${data.poster_path}`;
   const genre = data.genres
   const location = useLocation();
