@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import getReviewsFromServer from "../../Utils/getReviewsFromServer";
+import {getReviewsFromServer} from "../../Utils/getMovies";
 const Reviews = () => {
   const [reviews, getReviews] = useState([]);
   const params = useParams();

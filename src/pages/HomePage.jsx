@@ -1,6 +1,6 @@
 import {useState,useEffect} from 'react';
 import TrendingList from '../components/TrandingList/TrendingList';
-import getTrending from '../Utils/getTrending';
+import {getTrending} from '../Utils/getMovies';
 
 const HomePage = () => {
     const[movies,setMovies] = useState([])

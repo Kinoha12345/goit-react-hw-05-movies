@@ -1,0 +1,16 @@
+.itemtext {
+    text-align: center;
+}
+
+.trending-img {
+    width: 300px;
+    height: 169px;
+    background-color: white;
+    background-image: url('https://www.thermaxglobal.com/wp-content/uploads/2020/05/image-not-found-300x169.jpg');
+}
+
+.trending-item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
